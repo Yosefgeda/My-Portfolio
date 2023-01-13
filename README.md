@@ -1,30 +1,7 @@
 # My-Portfolio
 <a name="readme-top"></a>
 
-<!--
-HOW TO USE:
-This is an example of how you may give instructions on setting up your project locally.
 
-Modify this file to match your project and remove sections that don't apply.
-
-REQUIRED SECTIONS:
-- Table of Contents
-- About the Project
-  - Built With
-  - Live Demo
-- Getting Started
-- Authors
-- Future Features
-- Contributing
-- Show your support
-- Acknowledgements
-- License
-
-OPTIONAL SECTIONS:
-- FAQ
-
-After you're finished please remove all the comments and instructions!
--->
 
 <div align="center">
   <!-- You are encouraged to replace this logo with your own! Otherwise you can also remove it. -->
@@ -115,13 +92,7 @@ In order to run this project you need:
 - Any text editor [VSCode](https://code.visualstudio.com/download) 
 - Install linters on your local env't
  
-<!--
-Example command:
 
-```sh
- gem install rails
-```
- -->
 
 ### Setup
 
@@ -131,14 +102,7 @@ to change to directory: cd My-portfolio
 Inside you will find the html file.
 
 
-<!--
-Example commands:
 
-```sh
-  cd my-folder
-  git clone git@github.com:myaccount/my-project.git
-```
---->
 
 ### Install
 
@@ -146,49 +110,24 @@ Linters have been installed for this project(npm install).
 Added a gitignore file and included the node_modules and text.md files.
 Linter actions are integreated witg github.
 
-<!--
-Example command:
 
-```sh
-  cd my-project
-  gem install
-```
---->
 
 ### Usage
 execute the following steps:
 To run the project on the html file run it through liveserver.
 
-<!--
-Example command:
 
-```sh
-  rails server
-```
---->
 
 ### Run tests
  run npx hint . 
  and npx stylelint "**/*.{css,scss}"
 
 
-<!--
-Example command:
 
-```sh
-  bin/rails test test/models/article_test.rb
-```
---->
 
 ### Deployment
 
-<!--
-Example:
 
-```sh
-
-```
- -->
 
 
 
@@ -253,7 +192,9 @@ I would like to thank to my coding partener Amanuel Belete.
 
 ## 📝 License <a name="license"></a>
 
-This project is currently unlicensed.
+This project is [MIT](./LICENSE) licensed.
+
+_NOTE: we recommend using the [MIT license](https://choosealicense.com/licenses/mit/) - you can set it up quickly by [using templates available on GitHub](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-license-to-a-repository). You can also use [any other license](https://choosealicense.com/licenses/) if you wish._
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
