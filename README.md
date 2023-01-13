@@ -28,9 +28,7 @@ After you're finished please remove all the comments and instructions!
 
 <div align="center">
   <!-- You are encouraged to replace this logo with your own! Otherwise you can also remove it. -->
-  <img src="murple_logo.png" alt="logo" width="140"  height="auto" />
-  <br/>
-
+  
   <h3><b>Microverse README Template</b></h3>
 
 </div>
@@ -63,7 +61,7 @@ After you're finished please remove all the comments and instructions!
 # 📖 [My-Portfolio_Mobile-Version] <a name="about-project"></a>
 
 
-**[# 📖 [My-Portfolio_Mobile-Version]  Is a module 1, block 1 project focusing on building personal portfolio page.  
+**[# 📖 [My-Portfolio_Mobile-Version]  Project mainly focusing on building personal responsive portfolio page to showcase my skills and abiities and what I can offer.  
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -74,19 +72,24 @@ After you're finished please remove all the comments and instructions!
 <details>
   <summary>Client</summary>
   <ul>
-    <li><a href="https://reactjs.org/"></a></li>
+    <li>HTML5</li>
   </ul>
 </details>
-
+<details>
+  <summary>Client</summary>
+  <ul>
+    <li>CSS3</li>
+  </ul>
+</details>
 
 
 <!-- Features -->
 
 ### Key Features <a name="key-features"></a>
 
-- **[Displays_the_first_two_sections_of_the_overall_portfolio_project]**
-- **[Designed_to_be_responsive_and_mobile_friendly]**
-- **[Have_a_navigation_bar_section_and_hero_section]**
+- Displays_the_first_two_sections_of_the_overall_portfolio_project
+- Designed_to_be_responsive_and_mobile_friendly
+- Have_a_navigation_bar_section_and_hero_section
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -122,7 +125,11 @@ Example command:
 
 ### Setup
 
-Clone this repository to your desired folder: git clone git@github.com:Yosefgeda/Hello-world.git
+Clone this repository to your desired folder, access the directory and run the html file: 
+To clone: git clone git@github.com:Yosefgeda/My-portfolio.git
+to change to directory: cd My-portfolio
+Inside you will find the html file.
+
 
 <!--
 Example commands:
@@ -135,7 +142,9 @@ Example commands:
 
 ### Install
 
-Run in your terminal npm install
+Linters have been installed for this project(npm install).
+Added a gitignore file and included the node_modules and text.md files.
+Linter actions are integreated witg github.
 
 <!--
 Example command:
@@ -193,9 +202,9 @@ Example:
 
 👤 **Author1**
 
-- GitHub: [@githubhandle](https://github.com/yosefgeda)
-- Twitter: [@twitterhandle](https://twitter.com/yosegeda)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/yosefgeda)
+- GitHub: [@yosefgeda](https://github.com/yosefgeda)
+- Twitter: [@yosefgeda](https://twitter.com/yosegeda)
+- LinkedIn: [yosefgeda](https://linkedin.com/in/yosefgeda)
 
 
 
@@ -213,7 +222,7 @@ Example:
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [https://github.com/Yosefgeda/My-portfolio/issues](../../issues/).
+Feel free to check the [issue page](https://github.com/Yosefgeda/My-portfolio/issues)
 
 <!-- SUPPORT -->
 
