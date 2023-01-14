@@ -107,8 +107,8 @@ body {
 
 .work {
   display: grid;
-  display: block;
-  grid-template-rows: 568px 386px 386px 386px 386px 386px 386px;
+  grid-template-columns: 568px 386px 386px 386px 386px 386px 386px;
+  column-gap: 24px;
   width: 327px;
   margin-top: 120px;
   margin-bottom: 120px;
@@ -123,6 +123,7 @@ body {
 }
 
 #multi-paragraph {
+  width: 327px;
   padding-right: 10%;
   font-family: 'Inter', sans-serif;
   font-size: 16px;
@@ -205,12 +206,14 @@ body {
 
 .multi-paragraph-card {
   font-family: 'Inter', sans-serif;
+  width: 300px;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
   color: #fff;
-  padding-left: 10%;
+  padding-left: 5%;
+  padding-right: 10%;
 }
 
 #under-line {
@@ -224,7 +227,7 @@ body {
   font-size: 32px;
   line-height: 44px;
   color: #fff;
-  padding-left: 10%;
+  padding-left: 5%;
 }
 
 /* grid positioning */
@@ -242,8 +245,28 @@ body {
   background-repeat: no-repeat;
 }
 
+.art2 {
+  grid-row-start: 3;
+}
+
+.art3 {
+  grid-row-start: 4;
+}
+
+.art4 {
+  grid-row-start: 5;
+}
+
+.art5 {
+  grid-row-start: 6;
+}
+
+.art6 {
+  grid-row-start: 7;
+}
+
 .prof-btn {
-  width: 100%;
+  width: 327px;
   text-align: center;
   margin-left: 0%;
   padding: 12px;
