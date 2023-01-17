@@ -159,9 +159,14 @@
     </div>
   </section>
 
-  <section class="contact-form">
+  <section class="contact-section">
     <h3 class="contact-header">I'm always interested in hearing about new projects, so if you'd like to chat please get in touch.</h3>
-    
+    <form action="https://formspree.io/f/mknagrvq" method="POST" class="contact-form">
+      <input type="text" name="name" maxlength="30" placeholder="Full name" class="form-input" required />
+      <input type="email" name="email" placeholder="Email address" class="form-input"required />
+      <textarea maxlength="500" name="description" placeholder="Enter text here" class="form-input form-textarea" rows="5"required ></textarea>
+      <button type="submit" class="submit-btn">Get in touch</button>
+    </form>
 
 
   </section>

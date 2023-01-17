@@ -391,3 +391,36 @@ body {
   color: #172B4D;
 
 }
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 50px;
+  gap: 30px;
+}
+
+.form-input {
+  padding: 20px;
+  border: none;
+  border-bottom: 1px solid #DBD8D7;
+  width: 100%;
+  font-family: 'Inter';
+}
+
+.form-textarea {
+  background-color: #FBF8F7;
+  border: none;
+}
+
+.submit-btn {
+  background-color: #FF6B00;
+  border: none;
+  color: white;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 24px;
+  padding: 12px;
+}
