@@ -174,7 +174,7 @@ If you like this project follow and give thumbs up on likedin
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-I would like to thank to my coding partener Amanuel Belete.
+I would like to thank to my coding partener Precious Betine.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
