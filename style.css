@@ -424,3 +424,15 @@ body {
   line-height: 24px;
   padding: 12px;
 }
+
+.footer-icons {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  color: black;
+  padding: 8px;
+}
+.footer-icons li {
+  color: black;
+  padding: 8px;
+}
