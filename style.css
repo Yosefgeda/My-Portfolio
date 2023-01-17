@@ -378,3 +378,16 @@ body {
   color: white;
   border: none;
 }
+
+.contact-header {
+  margin-left: 10%;
+  width: 327px;
+  font-family: Inter;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 44px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #172B4D;
+
+}
