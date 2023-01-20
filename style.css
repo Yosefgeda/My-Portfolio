@@ -190,6 +190,7 @@ body {
   line-height: 24px;
   font-weight: 700;
   width: max-content;
+  transition: 0.5s all;
 }
 
 .professional-list {
@@ -273,6 +274,7 @@ body {
   line-height: 24px;
   font-weight: 700;
   color: white;
+  transition: 0.5s all;
 }
 
 /* about me section */
@@ -366,6 +368,7 @@ body {
   color: white;
   border: none;
   margin-top: 20px;
+  transition: 0.5s all;
 }
 
 /* contact section */
@@ -420,6 +423,7 @@ body {
   font-size: 17px;
   line-height: 24px;
   padding: 12px;
+  transition: 0.5s all;
 }
 
 footer {
