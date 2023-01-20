@@ -689,10 +689,9 @@ button:disabled {
     0% {
       transform: translateX(300px);
     }
-    
+
     100% {
       transform: translate(0);
     }
   }
-
 }
