@@ -571,8 +571,7 @@ button:disabled {
   }
 
   .art1 {
-    background-image: url("icons/images/desktop/Img\ Placeholder1.png");
-    height: 435px;
+    background-image: url("icons/images/Img\ Placeholder2.png");
   }
 
   .art2,
@@ -586,16 +585,8 @@ button:disabled {
     height: 435px;
   }
 
-  .art1 * {
-    display: none;
-  }
-
   .professional-art > button {
     display: none;
-  }
-
-  .art1 > button {
-    display: block;
   }
 
   .prof-header {
@@ -617,9 +608,12 @@ button:disabled {
   /* about me */
 
   .about-me {
-    background-image: none;
+    background-image: url("icons/images/desktop/illustration-about me.png");
     padding-right: 0;
     padding-left: 5%;
+    background-size: 500px;
+    background-position: top 70px right;
+    margin-right: 0;
   }
 
   .about-me img {
@@ -630,8 +624,9 @@ button:disabled {
   }
 
   .about {
-    display: flex;
-    gap: 100px;
+    text-align: left;
+    max-width: 500px;
+    margin-right: 60%;
   }
 
   .language {
@@ -671,5 +666,14 @@ button:disabled {
   .professional-art:hover {
     cursor: pointer;
     outline: 2px solid #172b4d;
+    background-image: url("icons/images/desktop/Img\ Placeholder1.png");
+  }
+
+  .professional-art:hover * {
+    display: none;
+  }
+
+  .professional-art:hover > button {
+    display: block;
   }
 }
