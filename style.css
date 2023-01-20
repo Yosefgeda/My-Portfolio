@@ -680,4 +680,19 @@ button:disabled {
   .professional-art:hover > button {
     display: block;
   }
+
+  .work ul {
+    animation: slide 0.9s ease-in;
+  }
+
+  @keyframes slide {
+    0% {
+      transform: translateX(300px);
+    }
+    
+    100% {
+      transform: translate(0);
+    }
+  }
+
 }
