@@ -444,7 +444,7 @@ footer {
 }
 
 button:hover {
-  background-color: #FFF5E1;
+  background-color: #fff5e1;
   border: 1px solid #e05304;
   color: #e05304;
 }
@@ -453,9 +453,10 @@ button:active {
   background-color: #e05304;
   color: white;
 }
+
 button:disabled {
-  background-color: #F4F1F0;
-  color: #5B5957;
+  background-color: #f4f1f0;
+  color: #5b5957;
 }
 
 .nav-link {
@@ -669,7 +670,6 @@ button:disabled {
 
   .professional-art:hover {
     cursor: pointer;
-    border: 2px solid #172b4d;
+    outline: 2px solid #172b4d;
   }
-  
 }
