@@ -82,7 +82,7 @@
 <!-- GETTING STARTED -->
 ## 💻 Getting Started <a name="getting-started"></a>
 
-> Click <a href="Yosefgeda.github.io">HERE</a> to view the page.
+> Click <a href="https://yosefgeda.github.io/My-Portfolio/">HERE</a> to view the page.
  
 
 
@@ -128,7 +128,7 @@ To run the project on the html file run it through liveserver.
 
 ### Deployment
 You can view the final page 
-<a href="Yosefgeda.github.io">HERE</a>
+<a href="https://yosefgeda.github.io/My-Portfolio/">HERE</a>
 
 
 
