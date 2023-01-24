@@ -82,7 +82,8 @@
 <!-- GETTING STARTED -->
 ## 💻 Getting Started <a name="getting-started"></a>
 
-> Open the index.html file to view the contents 
+> Click <a href="Yosefgeda.github.io">HERE</a> to view the page.
+ 
 
 
 ### Prerequisites
@@ -126,6 +127,8 @@ To run the project on the html file run it through liveserver.
 
 
 ### Deployment
+You can view the final page 
+<a href="Yosefgeda.github.io">HERE</a>
 
 
 
