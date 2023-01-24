@@ -10,7 +10,7 @@
 body {
   color: black;
   min-width: 375px;
-  width: 100vw;
+  width: 100%;
 }
 
 .nav-bar {
@@ -113,7 +113,6 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  border: 1px solid red;
 }
 
 .work {
@@ -163,6 +162,7 @@ body {
 }
 
 .multi-post > div > p {
+  width: 60%;
   font-size: 16px;
   font-weight: 400;
   line-height: 24px;
