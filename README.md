@@ -73,7 +73,8 @@
 <!-- LIVE DEMO -->
 ## 🚀 Live Demo <a name="live-demo"></a>
 
->Not yet available
+>You can view the final page 
+<a href="https://yosefgeda.github.io/My-Portfolio/">HERE</a>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -127,8 +128,8 @@ To run the project on the html file run it through liveserver.
 
 
 ### Deployment
-You can view the final page 
-<a href="https://yosefgeda.github.io/My-Portfolio/">HERE</a>
+You can view the Loom video of the page 
+<a href="https://www.loom.com/share/dfb599ec605b4dd285c94845543bd873">HERE</a>
 
 
 
