@@ -123,6 +123,7 @@ To run the project on the html file run it through liveserver.
 ### Run tests
  run npx hint . 
  and npx stylelint "**/*.{css,scss}"
+ and npx eslint .
 
 
 
