@@ -561,10 +561,153 @@ button:disabled {
 .about-me img {
   display: none;
 }
+/* ....... POPUP....... */
 
-/* desktop version */
+.pop-container-big {
+  display: none; 
+  position: fixed; 
+  z-index: 1; 
+  top: 0;
+  bottom: 0;
+  width: 100%; 
+  height: 100%; 
+  overflow: auto; 
+  background-color: white; 
+  background-color: rgba(0,0,0,0.4); 
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-top: 5%;
+  cursor: pointer;
+}
+
+.pop-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  height: auto;
+  gap: 20px;
+  padding: 5%;
+  background-color: white;
+}
+
+.pop-title-close {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding-right: 5%;
+}
+
+.pop-close {
+  width: 15px;
+  height: 15px;
+}
+
+.pop-close:hover {
+  width: 20px;
+  height: 20px;
+}
+
+.pop-title {
+font-family: 'Roboto';
+font-size: 32px;
+font-weight: 700;
+line-height: 44px;
+color: #172B4D;
+text-align: left;
+}
+
+.pop-tech-list {
+  list-style: none;
+  display: flex;
+  gap: 7px;
+}
+
+.pop-tech-list li {
+  border: 1px solid #979493;
+  padding: 10px 12px;
+  font-family: 'Poppins';
+  color: #3C3A39;
+}
+
+.pop-description {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 50px;
+}
+
+.pop-paragraph {
+  font-family: 'Inter';
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #344563;
+}
+
+.pop-btn-list {
+  list-style: none;
+  display: flex;
+  gap: 12px;
+}
+
+.pop-button {
+  padding: 12px;
+  font-family: Inter;
+  font-size: 17px;
+  font-weight: 700;
+  line-height: 24px;
+  text-align: center;
+  color: white;
+  background: #FF6B00;
+  border: none;
+}
+
+.pop-para-img {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 20px;
+} 
+
+.pop-image {
+  width: 100%;
+}
+
+.pop-title-desk {
+  display: none;
+}
+
+/* .......desktop version...... */
 
 @media (min-width: 768px) {
+
+  .pop-title {
+    display: none;
+  }
+
+  .pop-title-desk {
+    display: block;
+    font-family: 'Crete Round';
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 44px;
+    color: #172B4D;
+  }
+
+  .pop-description {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .pop-para-img {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }  
+
+  
+  
   .container {
     width: 100vw;
     height: 100vh;
