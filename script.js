@@ -233,3 +233,12 @@ popClose.addEventListener('click', () => {
     bodyMain.style.overflow = 'auto';
   }
 });
+
+const emailForm = document.getElementById('validate-mail');
+const regx = /[A-Z]/;
+const text = document.getElementById('text');
+const form = document.getElementById('form');
+
+
+
+

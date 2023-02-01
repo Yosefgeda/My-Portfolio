@@ -17,6 +17,14 @@ header {
   width: 100%;
 }
 
+#text {
+  width: 400px;
+  height: 20px;
+  margin-top: 0;
+  color: rgb(114, 10, 10);
+  font-family: 'Roboto', sans-serif;
+}
+
 .nav-bar {
   background-color: #3e3c3c;
   color: white;
