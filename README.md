@@ -150,6 +150,9 @@ You can view the Loom video of the page
 - Twitter: [@yosefgeda](https://twitter.com/yosegeda)
 - LinkedIn: [yosefgeda](https://linkedin.com/in/yosefgeda)
 
+ **Author2**
+- GitHub: [github](https://github.com/alexiscyber14)
+
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
