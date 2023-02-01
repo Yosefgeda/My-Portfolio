@@ -1,5 +1,3 @@
-
-
 const menuButton = document.querySelector('#btn-menu');
 const closeModalIcon = document.querySelector('#modal-close-icon img');
 const mobileMenuModal = document.querySelector('#mobile-menu-modal');
@@ -18,8 +16,7 @@ menuLinks.forEach((link) => {
 
 const projectData = {
   titleOne: 'Multi-Post Stories',
-  description:
-    "A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.",
+  description:'A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.',
   technologies: ['css', 'html', 'bootstrap', 'Ruby'],
   button: 'See Project',
   profHeader1: 'Profesional Art <br> Printing Data',
@@ -122,7 +119,6 @@ const popContainer = document.createElement('section');
 popContainer.className = 'pop-container';
 popContainerBig.appendChild(popContainer);
 
-
 const popTitleClose = document.createElement('div');
 popTitleClose.className = 'pop-title-close';
 popContainer.appendChild(popTitleClose);
@@ -136,7 +132,6 @@ const popTitleDesk = document.createElement('h1');
 popTitleDesk.className = 'pop-title-desk';
 popTitleClose.appendChild(popTitleDesk);
 popTitleDesk.textContent = projectData.desktopTitle;
-
 
 const popCloseImg = document.createElement('img');
 popCloseImg.src = projectData.imgTwo;
@@ -160,7 +155,6 @@ const popDescription = document.createElement('div');
 popDescription.className = 'pop-description';
 popContainer.appendChild(popDescription);
 
-
 const popImage = document.createElement('img');
 popImage.className = 'pop-image';
 popImage.src = projectData.popImg;
@@ -169,8 +163,6 @@ popDescription.appendChild(popImage);
 const popParaImg = document.createElement('div');
 popParaImg.className = 'pop-para-img';
 popDescription.appendChild(popParaImg);
-
-
 
 const popParagraph = document.createElement('p');
 popParagraph.className = 'pop-paragraph';
@@ -181,7 +173,6 @@ popParaImg.appendChild(popParagraph);
 
 const popBtn = document.createElement('div');
 popBtn.className = 'pop-btn';
-
 
 const popBtnList = document.createElement('ul');
 popBtnList.className = 'pop-btn-list';
@@ -218,15 +209,11 @@ buttonPopProf.addEventListener("click", function(){
   popContainerBig.style.display = 'block';
 })
 
-
 const popClose = document.querySelector('.pop-close');
 popClose.addEventListener('click', function() {
-  popContainerBig.style.display = 'none';
-  if(popContainerBig.style.display = 'none'){
+  const popContBig = popContainerBig.style.display
+  popContBig = 'none';
+  if (popContBig = 'none'){
     bodyMain.style.overflow = 'auto';
   }
-})
-
-
-
-
+});
