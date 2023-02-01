@@ -16,7 +16,8 @@ menuLinks.forEach((link) => {
 
 const projectData = {
   titleOne: 'Multi-Post Stories',
-  description: 'A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.',
+  description:
+    "A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.",
   technologies: ['css', 'html', 'bootstrap', 'Ruby'],
   button: 'See Project',
   profHeader1: 'Profesional Art <br> Printing Data',
@@ -27,7 +28,8 @@ const projectData = {
   imgTwo: './icons/modal-close-icon.png',
   popTec: ['html', 'Bootstrap', 'Ruby on rails'],
   popImg: 'icons/images/popup.png',
-  lorem: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent',
+  lorem:
+    "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent",
   desktopTitle: 'Keeping track of hundreds  of components website',
 };
 
@@ -201,6 +203,7 @@ popButton2.innerHTML = val2;
 popBtnListItem2.appendChild(popButton2);
 
 const buttonPop = document.querySelector('.popup-btn');
+const buttonsCards = document.querySelectorAll('.prof-btn');
 let bol = false;
 buttonPop.addEventListener('click', () => {
   const flowBig = popContainerBig.style;
@@ -209,6 +212,17 @@ buttonPop.addEventListener('click', () => {
   if (bol === true) {
     bodyMain.style.overflow = 'hidden';
   }
+});
+
+buttonsCards.forEach((button) => {
+  button.addEventListener('click', () => {
+    const flowBig = popContainerBig.style;
+    flowBig.display = 'block';
+    bol = true;
+    if (bol === true) {
+      bodyMain.style.overflow = 'hidden';
+    }
+  });
 });
 
 const popClose = document.querySelector('.pop-close');
