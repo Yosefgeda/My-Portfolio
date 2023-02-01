@@ -16,19 +16,19 @@ menuLinks.forEach((link) => {
 
 const projectData = {
   titleOne: 'Multi-Post Stories',
-  description:'A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.',
+  description: 'A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.',
   technologies: ['css', 'html', 'bootstrap', 'Ruby'],
   button: 'See Project',
   profHeader1: 'Profesional Art <br> Printing Data',
   proHead1: 'Profesional Art <br> Printing Data More',
   proHead2: 'Data Dashboard <br> Healthcare',
   proHead3: 'Website Protfolio',
-  img: "icons/images/Img Placeholder1.png",
+  img: 'icons/images/Img Placeholder1.png',
   imgTwo: './icons/modal-close-icon.png',
   popTec: ['html', 'Bootstrap', 'Ruby on rails'],
   popImg: 'icons/images/popup.png',
   lorem: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent',
-  desktopTitle: 'Keeping track of hundreds  of components website'
+  desktopTitle: 'Keeping track of hundreds  of components website',
 }
 
 const containerBig = document.querySelector('.work');
@@ -67,7 +67,7 @@ multiBtn.className = 'multi-btn popup-btn';
 innerMultiPost.appendChild(multiBtn);
 multiBtn.innerText = projectData.button;
 
-/*....function....*/
+/* ....function.... */
 
 function portfolio(str, hedOne, hedTwo) {
   const professionalArt = document.createElement('div');
@@ -145,7 +145,7 @@ popContainer.appendChild(popTechs);
 const popTechList = document.createElement('ul');
 popTechList.className = 'pop-tech-list';
 popTechs.appendChild(popTechList);
-for(let i = 0; i < projectData.popTec.length; i += 1) {
+for (let i = 0; i < projectData.popTec.length; i += 1) {
   const popList = document.createElement('li');
   popList.innerText = projectData.popTec[i];
   popTechList.appendChild(popList);
@@ -169,7 +169,7 @@ popParagraph.className = 'pop-paragraph';
 popParagraph.innerHTML = projectData.lorem;
 popParaImg.appendChild(popParagraph);
 
-/**..Button.. */
+/** ..Button.. */
 
 const popBtn = document.createElement('div');
 popBtn.className = 'pop-btn';
@@ -197,23 +197,19 @@ popButton2.innerHTML = 'See Source' + '<i class="fa-brands fa-github"></i>';
 popBtnListItem2.appendChild(popButton2);
 
 const buttonPop = document.querySelector('.popup-btn');
-buttonPop.addEventListener("click", function(){
-  popContainerBig.style.display = 'block';
-  if (popContainerBig.style.display = 'block') {
+buttonPop.addEventListener("click", vieww = () => {
+  let flowBig = popContainerBig.style;
+  flowBig.display = 'block';
+  if (flowBig.display = 'block') {
     bodyMain.style.overflow = 'hidden';
   }
-})
-
-const buttonPopProf = document.querySelector('.popup-btn-prof');
-buttonPopProf.addEventListener("click", function(){
-  popContainerBig.style.display = 'block';
-})
+});
 
 const popClose = document.querySelector('.pop-close');
-popClose.addEventListener('click', function() {
-  const popContBig = popContainerBig.style.display
-  popContBig = 'none';
-  if (popContBig = 'none'){
+popClose.addEventListener('click', closebt = () => {
+  let popContBig = popContainerBig.style;
+  popContBig.display = 'none';
+  if (popContBig.display = 'none') {
     bodyMain.style.overflow = 'auto';
   }
 });
