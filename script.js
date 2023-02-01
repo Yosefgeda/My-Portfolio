@@ -29,7 +29,7 @@ const projectData = {
   popImg: 'icons/images/popup.png',
   lorem: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent',
   desktopTitle: 'Keeping track of hundreds  of components website',
-}
+};
 
 const containerBig = document.querySelector('.work');
 const workContainer = document.createElement('div');
@@ -188,28 +188,34 @@ popBtnList.appendChild(popBtnListItem2);
 
 const popButton = document.createElement('button');
 popButton.className = 'pop-button';
-popButton.innerHTML = 'See Live' + '<i class="fa-solid fa-power-off"></i>';
+const icn = '<i class="fa-solid fa-power-off"></i>';
+const val = `See Live ${icn}`;
+popButton.innerHTML = val;
 popBtnListItem.appendChild(popButton);
 
 const popButton2 = document.createElement('button');
 popButton2.className = 'pop-button';
-popButton2.innerHTML = 'See Source' + '<i class="fa-brands fa-github"></i>';
+const icn2 = '<i class="fa-brands fa-github"></i>';
+const val2 = `See Source ${icn2}`; 
+popButton2.innerHTML = val2;
 popBtnListItem2.appendChild(popButton2);
 
 const buttonPop = document.querySelector('.popup-btn');
-buttonPop.addEventListener("click", vieww = () => {
-  let flowBig = popContainerBig.style;
+let bol = false;
+buttonPop.addEventListener('click', () => {
+  const flowBig = popContainerBig.style;
   flowBig.display = 'block';
-  if (flowBig.display = 'block') {
+  bol = true;
+  if (bol === true) {
     bodyMain.style.overflow = 'hidden';
   }
 });
 
 const popClose = document.querySelector('.pop-close');
-popClose.addEventListener('click', closebt = () => {
-  let popContBig = popContainerBig.style;
+popClose.addEventListener('click', () => {
+  const popContBig = popContainerBig.style;
   popContBig.display = 'none';
-  if (popContBig.display = 'none') {
+  if (popContBig.display === 'none') {
     bodyMain.style.overflow = 'auto';
   }
 });
