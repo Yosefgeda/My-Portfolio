@@ -196,7 +196,7 @@ popBtnListItem.appendChild(popButton);
 const popButton2 = document.createElement('button');
 popButton2.className = 'pop-button';
 const icn2 = '<i class="fa-brands fa-github"></i>';
-const val2 = `See Source ${icn2}`; 
+const val2 = `See Source ${icn2}`;
 popButton2.innerHTML = val2;
 popBtnListItem2.appendChild(popButton2);
 
