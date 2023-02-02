@@ -240,7 +240,7 @@ const text = document.getElementById('text');
 const form = document.getElementById('form');
 
 form.addEventListener('submit', (e) => {
-  if (regx.test(emailForm.value) === false) {
+  if (regx.test(emailForm.value) === true) {
     text.textContent = 'Email address must be in lower case!';
     e.preventDefault();
   } else {
