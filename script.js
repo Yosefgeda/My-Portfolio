@@ -15,7 +15,7 @@ menuLinks.forEach((link) => {
 });
 
 const projectData = {
-  titleOne: 'Multi-Post Stories',
+  titleOne: 'Ethio-atrs and Events',
   description:
     "A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.",
   technologies: ['css', 'html', 'bootstrap', 'Ruby'],
@@ -24,13 +24,16 @@ const projectData = {
   proHead1: 'Profesional Art <br> Printing Data More',
   proHead2: 'Data Dashboard <br> Healthcare',
   proHead3: 'Website Protfolio',
-  img: 'icons/images/Img Placeholder1.png',
+  img: 'icons/screenshot/Untitled.jpg',
   imgTwo: './icons/modal-close-icon.png',
   popTec: ['html', 'Bootstrap', 'Ruby on rails'],
-  popImg: 'icons/images/popup.png',
+  popImg: 'icons/screenshot/ethmainevent.jpg',
   lorem:
     "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent",
   desktopTitle: 'Keeping track of hundreds  of components website',
+  popBtnSource: 'https://github.com/Yosefgeda/ethio-arts-event',
+  popBtnLive: 'https://yosefgeda.github.io/ethio-arts-event/',
+  
 };
 
 const containerBig = document.querySelector('.work');
@@ -192,15 +195,27 @@ const popButton = document.createElement('button');
 popButton.className = 'pop-button';
 const icn = '<i class="fa-solid fa-power-off"></i>';
 const val = `See Live ${icn}`;
-popButton.innerHTML = val;
+//popButton.innerHTML = val;
 popBtnListItem.appendChild(popButton);
 
 const popButton2 = document.createElement('button');
 popButton2.className = 'pop-button';
 const icn2 = '<i class="fa-brands fa-github"></i>';
 const val2 = `See Source ${icn2}`;
-popButton2.innerHTML = val2;
+//popButton2.innerHTML = val2;
 popBtnListItem2.appendChild(popButton2);
+
+const repoLink = document.createElement('a');
+repoLink.href = projectData.popBtnSource;
+popButton2.appendChild(repoLink);
+repoLink.innerHTML = val2;
+repoLink.target = '_blank';
+
+const liveLink = document.createElement('a');
+liveLink.href = projectData.popBtnLive;
+popButton.appendChild(liveLink);
+liveLink.innerHTML = val;
+liveLink.target = '_blank';
 
 const buttonPop = document.querySelector('.popup-btn');
 const buttonsCards = document.querySelectorAll('.prof-btn');
@@ -248,3 +263,23 @@ form.addEventListener('submit', (e) => {
     text.style.color = 'green';
   }
 });
+
+localStorage.clear();
+
+let localForm = {
+  emailField: '',
+  nameField: '',
+  messageField: '',
+}
+
+let localForm_str = JSON.stringify(localForm);
+localStorage.setItem('locForm', localForm_str);
+
+emailForm.addEventListener('input', () => {
+  localForm_str.emailField = emailForm.value;
+  localStorage.getItem(localForm_str.emailField);
+})
+//localStorage.getItem(localForm.emailField)
+
+
+//console.log(localStorage);

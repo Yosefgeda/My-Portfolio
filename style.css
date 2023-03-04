@@ -144,8 +144,9 @@ header {
 }
 
 .multi-post img {
-  width: 100%;
+  width: 70%;
   height: auto;
+  border: 1px solid #091e42;
 }
 
 .footer-icons li {
@@ -680,7 +681,7 @@ button:disabled {
 }
 
 .pop-image {
-  width: 100%;
+  width: 50%;
 }
 
 .pop-title-desk {
