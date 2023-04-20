@@ -40,37 +40,37 @@ const containerBig = document.querySelector('.work');
 const workContainer = document.createElement('div');
 workContainer.className = 'work-container';
 containerBig.appendChild(workContainer);
-const multiHeaderContainer = document.createElement('div');
-multiHeaderContainer.className = 'multi-post';
-workContainer.appendChild(multiHeaderContainer);
-const multiHeadImg = document.createElement('img');
-multiHeadImg.src = projectData.img;
-multiHeadImg.className = 'multi-img';
-multiHeaderContainer.appendChild(multiHeadImg);
-const innerMultiPost = document.createElement('div');
-innerMultiPost.className = 'inner-multi-post';
-multiHeaderContainer.appendChild(innerMultiPost);
-const multiHeadTitle = document.createElement('h2');
-multiHeadTitle.className = 'multi-head-two';
-innerMultiPost.appendChild(multiHeadTitle);
-multiHeadTitle.textContent = projectData.titleOne;
+// // const multiHeaderContainer = document.createElement('div');
+// multiHeaderContainer.className = 'multi-post';
+// workContainer.appendChild(multiHeaderContainer);
+// const multiHeadImg = document.createElement('img');
+// multiHeadImg.src = projectData.img;
+// multiHeadImg.className = 'multi-img';
+// multiHeaderContainer.appendChild(multiHeadImg);
+// const innerMultiPost = document.createElement('div');
+// innerMultiPost.className = 'inner-multi-post';
+// multiHeaderContainer.appendChild(innerMultiPost);
+// const multiHeadTitle = document.createElement('h2');
+// multiHeadTitle.className = 'multi-head-two';
+// innerMultiPost.appendChild(multiHeadTitle);
+// multiHeadTitle.textContent = projectData.titleOne;
 
-const multiHeadPara = document.createElement('p');
-innerMultiPost.appendChild(multiHeadPara);
-multiHeadPara.textContent = projectData.description;
+// const multiHeadPara = document.createElement('p');
+// innerMultiPost.appendChild(multiHeadPara);
+// multiHeadPara.textContent = projectData.description;
 
-const multiHeadTechs = document.createElement('ul');
-innerMultiPost.appendChild(multiHeadTechs);
-for (let i = 0; i < projectData.technologies.length; i += 1) {
-  const multiHeadList = document.createElement('li');
-  multiHeadList.innerText = projectData.technologies[i];
-  multiHeadTechs.appendChild(multiHeadList);
-}
+// const multiHeadTechs = document.createElement('ul');
+// innerMultiPost.appendChild(multiHeadTechs);
+// for (let i = 0; i < projectData.technologies.length; i += 1) {
+//   const multiHeadList = document.createElement('li');
+//   multiHeadList.innerText = projectData.technologies[i];
+//   multiHeadTechs.appendChild(multiHeadList);
+// }
 
-const multiBtn = document.createElement('button');
-multiBtn.className = 'multi-btn popup-btn';
-innerMultiPost.appendChild(multiBtn);
-multiBtn.innerText = projectData.button;
+// const multiBtn = document.createElement('button');
+// multiBtn.className = 'multi-btn popup-btn';
+// innerMultiPost.appendChild(multiBtn);
+// multiBtn.innerText = projectData.button;
 
 /* ....function.... */
 
@@ -216,6 +216,9 @@ liveLink.href = projectData.popBtnLive;
 popButton.appendChild(liveLink);
 liveLink.innerHTML = val;
 liveLink.target = '_blank';
+
+repoLink.className = 'repo-link';
+liveLink.className = 'live-link';
 
 const buttonPop = document.querySelector('.popup-btn');
 const buttonsCards = document.querySelectorAll('.prof-btn');
