@@ -7,6 +7,7 @@
   <!-- You are encouraged to replace this logo with your own! Otherwise you can also remove it. -->
   
   <h3><b>Microverse README Template</b></h3>
+![portfolio desktop](https://github.com/Yosefgeda/My-Portfolio/assets/100337086/a7d74c76-9537-42bf-8750-e41262623b96) ![portfolio mobile](https://github.com/Yosefgeda/My-Portfolio/assets/100337086/0507f274-9c99-49bf-86d4-3683f539c434)
 
 </div>
 
@@ -38,7 +39,7 @@
 # 📖 [My-Portfolio_Mobile-Version] <a name="about-project"></a>
 
 
-**[# 📖 [My-Portfolio_Mobile-Version]  Project mainly focusing on building personal responsive portfolio page to showcase my skills and abiities and what I can offer.  
+Project mainly focusing on building personal responsive portfolio page to showcase my skills and abiities and what I can offer.  
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -47,13 +48,13 @@
 > Describe the tech stack and include only the relevant sections that apply to your project.
 
 <details>
-  <summary>Client</summary>
+  <summary>Structure</summary>
   <ul>
     <li>HTML5</li>
   </ul>
 </details>
 <details>
-  <summary>Client</summary>
+  <summary>Style</summary>
   <ul>
     <li>CSS3</li>
   </ul>
