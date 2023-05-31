@@ -41,8 +41,6 @@ Project mainly focusing on building personal responsive portfolio page to showca
 
 ### Tech Stack <a name="tech-stack"></a>
 
-> Describe the tech stack and include only the relevant sections that apply to your project.
-
 <details>
   <summary>Structure</summary>
   <ul>
@@ -130,16 +128,11 @@ You can view the Loom video of the page
 <a href="https://www.loom.com/share/dfb599ec605b4dd285c94845543bd873">HERE</a>
 
 
-
-
-
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- AUTHORS -->
 
 ## 👥 Authors <a name="authors"></a>
-
-> Mention all of the collaborators of this project.
 
 👤 **Author1**
 
@@ -149,8 +142,6 @@ You can view the Loom video of the page
 
  **Author2**
 - GitHub: [github](https://github.com/alexiscyber14)
-
-
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
