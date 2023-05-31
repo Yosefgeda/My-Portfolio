@@ -1,14 +1,10 @@
 # My-Portfolio
 <a name="readme-top"></a>
-
-
-
 <div align="center">
-  <!-- You are encouraged to replace this logo with your own! Otherwise you can also remove it. -->
   
-  <h3><b>Microverse README Template</b></h3>
-![portfolio desktop](https://github.com/Yosefgeda/My-Portfolio/assets/100337086/a7d74c76-9537-42bf-8750-e41262623b96) ![portfolio mobile](https://github.com/Yosefgeda/My-Portfolio/assets/100337086/0507f274-9c99-49bf-86d4-3683f539c434)
+  ![portfolio desktop](https://github.com/Yosefgeda/My-Portfolio/assets/100337086/091d2de1-650b-42dd-9c6b-b4b57449cc89)
 
+       
 </div>
 
 <!-- TABLE OF CONTENTS -->
