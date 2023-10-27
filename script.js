@@ -1,4 +1,4 @@
-import projectItems from "/projectFiles.js";
+import projectItems from "./project files/projectFiles.js";
 
 const carouselContainer = document.querySelector('.work');
 const faRight = document.querySelector('.fa-angle-right');
