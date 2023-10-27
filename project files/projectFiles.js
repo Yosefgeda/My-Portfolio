@@ -1,4 +1,4 @@
-const projectItems = [
+export const projectItems = [
     { 
         id: 1,
         title: 'Awesome Books',
@@ -44,5 +44,3 @@ const projectItems = [
         background:"orangered"
     }
 ]
-
-export default projectItems;
