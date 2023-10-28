@@ -30,19 +30,19 @@ function updateCarousel() {
       const itemHtml = `
           <li>
             <div class="carousel-container">
-              <h2 class="proj-title" style="color: ${itm.background}";>${itm.title}</h2>
+              <h2 class="proj-title" style="color: white";>${itm.title}</h2>
               <div><img src="${itm.image}" class="proj-img"></div>
-              <p class="proj-desc" style="color: ${itm.background}";>${itm.description}</p>
+              <p class="proj-desc" style="color: white";>${itm.description}</p>
               <div class="see-prjct">
-                <button class="aboutme-btn see-github" style="background-color: ${itm.background}";><a href=${itm.githubLink} target="_blank" >See Github</a></button>
-                <button class="aboutme-btn see-live" style="background-color: ${itm.background}";><a href=${itm.linkDemo} target="_blank" >See Live</a></button>
+                <button class="aboutme-btn see-github";><a href=${itm.githubLink} target="_blank" >See Github</a></button>
+                <button class="aboutme-btn see-live";><a href=${itm.linkDemo} target="_blank" >See Live</a></button>
               </div>
             </div>   
           </li>
       `;
 
-      faRight.style.color = itm.background;
-      faLeft.style.color = itm.background;
+      faRight.style.color = "white";
+      faLeft.style.color = "white";
       
       return itemHtml;
   }).join('');

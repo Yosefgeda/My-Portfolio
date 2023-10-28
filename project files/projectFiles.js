@@ -31,16 +31,31 @@ export const projectItems = [
     },
     {
         id: 4,
-        title: 'Ethio-atrs and Events',
+        title: 'Ethio-atrs, Events',
         description: "A website for LDE Events Organizer, combining event management services and an art gallery. Built with JavaScript, HTML, and CSS.",
         image: './icons/screenshot/Untitled.jpg',
         imgTwo: './icons/modal-close-icon.png',
         techStack: ['html', 'Bootstrap', 'JavaScript'],
         popImg: 'icons/screenshot/ethmainevent.jpg',
-        lorem: "The website features a visually appealing design and provides workshop information for nurturing creativity. It merges events and art for inspiration and cultural enrichment.",
         desktopTitle: 'Keeping track of hundreds  of components website',
         githubLink: 'https://github.com/Yosefgeda/ethio-arts-event',
         linkDemo: 'https://yosefgeda.github.io/ethio-arts-event/',
         background:"orangered"
+    },
+    {
+        id: 5,
+        title: 'Crypto Data',
+        description: 'Sleek mobile app: 50+ cryptos, live CoinGecko data. Built with React/Redux for seamless experience.',
+        image: './icons/new/crypto.jpg',
+        githubLink: 'https://github.com/Yosefgeda/metrics-webapp',
+        linkDemo: 'https://metrics-webapp2.onrender.com/home',
+    },
+    {
+        id: 6,
+        title: 'Space Hub',
+        description: 'React Group Capstone: Collaborative project utilizing APIs to fetch and display rocket reservations, mission details.',
+        image: './icons/new/space-hub.jpg',
+        githubLink: 'https://github.com/baqar-abbas/spacehub-capstone',
+        linkDemo: 'https://spacetravellerhubcapstone.netlify.app/'
     }
 ]

@@ -7,6 +7,11 @@
   list-style: none;
 }
 
+a {
+  text-decoration: none;
+  color: white;
+}
+
 .icons {
   display: flex;
 }
@@ -14,7 +19,6 @@
 .container {
   display: flex;
   flex-direction: column;
-  /* background-color: orange; */
   background-image: url("./icons/new/O7OFWS0.jpg");
   background-repeat: no-repeat;
   background-position: center;
@@ -34,7 +38,7 @@
 }
 
 .fa-bars {
-  color: #664200;
+  color: white;
   padding: 5%;
 }
 
@@ -45,7 +49,7 @@
   z-index: 2;
   width: 100%;
   height: 100%;
-  background-color: orange;
+  background: linear-gradient(to right, rgb(0, 238, 255), #c800ff);
   animation: slideIn 0.5s ease-in-out;
 }
 
@@ -103,6 +107,7 @@
 .nav li {
   padding: 10px;
   border-bottom: 1px solid rgb(165, 165, 165);
+  font-family: poppins;
 }
 
 .nav li:hover {
@@ -122,13 +127,8 @@
 
 /* Home */
 
+
 .home-page {
-  /* background-image: url("./icons/images/illustration-header-mobile.png");
-  background-repeat: no-repeat;
-  background-size: 200px;
-  background-position-x: right; */
-  /* height: 100%; */
-  color: white;
   font-size: larger;
   display: flex;
   flex-direction: column;
@@ -136,24 +136,28 @@
   padding: 0 10%;
 }
 
+
 .home-page h1, .outro h1 {
+  position: relative;
+  z-index: 1;
   font-size: 50px;
   font-weight: 600;
   font-family: 'poppins';
-  background-image: linear-gradient(to right, #12674A, #63f7a0);
-  color: transparent;
-  background-clip: text;
-  -webkit-background-clip: text;
+  color: white;
 }
 
 .home-page p, .outro p {
-  color: #12674A;
+  position: relative;
+  z-index: 1;
+  color: white;
   font-size: smaller;
   font-family: 'poppins';
   
 }
 
 .home-nav {
+  position: relative;
+  z-index: 1;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -164,17 +168,10 @@
   font-weight: bold;
 }
 
-.home-nav li {
-  border: none; 
-}
-
-.home-nav li a {
-  color: #12674A;
-}
-
 .home-btn {
   width: 100px;
 }
+
 
 /* About Page */
 
@@ -183,23 +180,28 @@
 }
 
 .aboutme-btn {
-  border: none;
+  border: 1px solid white;
   border-radius: 5px;
-  background-color: #12674A;
+  background-color: transparent;
   padding: 2%;
   margin-top: 5%;
   color: white;
   font-size: larger;
+  transition: background-color 0.3s ease;
 }
 
-.aboutme-btn a {
-  text-decoration: none;
-  color: white;
+.aboutme-btn a{
+  transition: background-color 0.3s ease;
 }
 
 .aboutme-btn:hover {
   cursor: pointer;
-  background-color: #058139;
+  color: black;
+  background-color: rgb(255, 255, 255);
+}
+
+.aboutme-btn:hover a{
+  color: black;
 }
 
 .language {
@@ -208,7 +210,6 @@
   display: flex;
   justify-content: space-between;
   font-family: poppins;
-  /* background-color: rgba(0, 0, 0, 0.13); */
 }
 
 .language ul {
@@ -297,6 +298,7 @@
 }
 
 .fa-arrow-left {
+  color: white;
   position: absolute;
   z-index: 1;
   top: 0;
@@ -306,10 +308,6 @@
 
 .fa-arrow-left:hover {
   cursor: pointer;
-}
-
-.prj-cont {
-  border: 1px solid red;
 }
 
 .proj-img {
@@ -349,8 +347,10 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: rgba(8, 8, 8, 0.096);
+  background: linear-gradient(to right, rgba(0, 238, 255, 0.212), #00155a);
   padding: 2%;
+  border: 3px solid #00ffff;
+  box-shadow: 0 0 50px 0 #00a6bc;
   border-radius: 10px;
   margin-top: 5%;
 }
@@ -383,6 +383,11 @@
   color: #011f0d;
 }
 
+.language ul li {
+  color: white;
+}
+
+
 /* .......desktop version...... */
 
 @media (min-width: 768px) {
@@ -397,10 +402,6 @@
     flex-direction: row;
     align-items: flex-start;
   }
-/* 
-  #main-contents {
-    border: 1px solid  red;
-  } */
 
   #btn-menu, .fa-xmark {
     display: none;
@@ -425,7 +426,7 @@
 
   .aside-desk {
     display: flex;
-    width: 250px;
+    width: 270px;
     flex-direction: column;
     gap: 10%;
     height: 100%;
@@ -433,12 +434,7 @@
   }
 
   .nav-link {
-    
     transition: 0.5s ease-in;
-  }
-
-  .nav li {
-    border-bottom: 1px solid #058139;
   }
 
   .fa-arrow-left {
@@ -450,17 +446,22 @@
   }
 
   .nav-link:hover  {
-    background-color: #058139;
-    padding-left: 0;
+    background-color: white;
+    color: black;
+    padding-left: 5px;
     font-size: x-large;
   }
 
   .nav-logo {
-    transition: 0.5s ease-in;
+    background: linear-gradient(to right, rgba(0, 238, 255, 0.247), #4c00ff49);
+    width: 100%;
+    margin: 0;
+    font-size: larger;
+    transition: color 0.5s ease;
   }
 
   .nav-logo:hover  {
-    color: #058139;
+    color: black;
   }
 
   #home {
@@ -468,6 +469,10 @@
     display: flex;
     flex-direction: column;
     align-items: flex-start;
+    border: 3px solid #00ffff;
+    box-shadow: 0 0 50px 0 #00a6bc;
+    position: relative;
+    padding: 5%;
   }
 
   #main-contents {
@@ -475,6 +480,37 @@
     padding-left: 0;
   }
   
+  #home::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to right, rgba(0, 238, 255, 0.411), #00155a);
+    clip-path: polygon(0 0, 65% 0, 0 100%);
+  }
+  
+
+  .home-nav .home-projects {
+    position: relative;
+    background-color: transparent;
+  }
+  
+  .home-nav .home-projects::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    clip-path: polygon(100% 0, 100% 100%, 0 100%);
+  }
+  
+  .home-nav .home-projects p, .fa-diagram-project {
+    z-index: 1;
+  }
+
   .home-nav {
     display: flex;
     flex-direction: row;
@@ -504,19 +540,35 @@
   /* Projects */
 
   #projects {
-    /* width: 50%; */
     margin-top: 10%;
     margin-left: 0;
   }
 
   .carosel-container {
-    
     padding: 0;
     gap: 20px;
-    /* width: 50%; */
   }
 
   /* About */
+
+  #about {
+    border: 3px solid #00ffff;
+    box-shadow: 0 0 100px 0 #00a6bc;
+    position: relative;
+    width: 70%;
+    margin-top: 7%;
+  }
+
+  #about::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to right, #0ef, #00155a);
+    clip-path: polygon(0 100%, 100% -30%, 100% 100%, 0 100%);
+  }
 
   .outro {
     padding: 0;
@@ -525,12 +577,14 @@
 
   .language {
     padding: 0;
-    width: 70%;
+  }
+
+  .language ul {
+    z-index: 1;
   }
 
   .about-me {
-    margin-top: 10%;
-    margin-left: 5%;
+    margin: 5%;
   }
 
   /* Form */
