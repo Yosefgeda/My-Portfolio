@@ -453,7 +453,6 @@ a {
   }
 
   .nav-logo {
-    background: linear-gradient(to right, rgba(0, 238, 255, 0.247), #4c00ff49);
     width: 100%;
     margin: 0;
     font-size: larger;
@@ -461,7 +460,7 @@ a {
   }
 
   .nav-logo:hover  {
-    color: black;
+    color: rgb(173, 170, 170);
   }
 
   #home {
