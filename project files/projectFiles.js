@@ -1,4 +1,20 @@
 export const projectItems = [
+    {
+        id: 5,
+        title: 'Crypto Data',
+        description: 'Sleek mobile app: 50+ cryptos, live CoinGecko data. Built with React/Redux for seamless experience.',
+        image: './icons/new/crypto.jpg',
+        githubLink: 'https://github.com/Yosefgeda/metrics-webapp',
+        linkDemo: 'https://metrics-webapp2.onrender.com/home',
+    },
+    {
+        id: 6,
+        title: 'Space Hub',
+        description: 'React Group Capstone: Collaborative project utilizing APIs to fetch and display rocket reservations, mission details.',
+        image: './icons/new/space-hub.jpg',
+        githubLink: 'https://github.com/baqar-abbas/spacehub-capstone',
+        linkDemo: 'https://spacetravellerhubcapstone.netlify.app/'
+    },
     { 
         id: 1,
         title: 'Awesome Books',
@@ -13,7 +29,7 @@ export const projectItems = [
         id: 2,
         title: 'Leaderboard',
         description: 'Project used for registering user names and respective scores. Data will be stored and fetched from an API.',
-        image: './icons/screenshot/leaderBoard/leaderBoard.png',
+        image: './icons/screenshot/leaderBoard/desktop.jpg',
         linkDemo: 'https://yosefgeda.github.io/leaderBoard/dist/',
         githubLink: 'https://github.com/Yosefgeda/leaderboard',
         techStack:['Javascript', 'HTML', 'CSS'],
@@ -42,20 +58,5 @@ export const projectItems = [
         linkDemo: 'https://yosefgeda.github.io/ethio-arts-event/',
         background:"orangered"
     },
-    {
-        id: 5,
-        title: 'Crypto Data',
-        description: 'Sleek mobile app: 50+ cryptos, live CoinGecko data. Built with React/Redux for seamless experience.',
-        image: './icons/new/crypto.jpg',
-        githubLink: 'https://github.com/Yosefgeda/metrics-webapp',
-        linkDemo: 'https://metrics-webapp2.onrender.com/home',
-    },
-    {
-        id: 6,
-        title: 'Space Hub',
-        description: 'React Group Capstone: Collaborative project utilizing APIs to fetch and display rocket reservations, mission details.',
-        image: './icons/new/space-hub.jpg',
-        githubLink: 'https://github.com/baqar-abbas/spacehub-capstone',
-        linkDemo: 'https://spacetravellerhubcapstone.netlify.app/'
-    }
+    
 ]
