@@ -4,10 +4,7 @@
 
 
 <div align="center">
-  <!-- You are encouraged to replace this logo with your own! Otherwise you can also remove it. -->
-  
-  <h3><b>Microverse README Template</b></h3>
-
+  <h3><b>Portfolio</b></h3>
 </div>
 
 <!-- TABLE OF CONTENTS -->
@@ -35,10 +32,10 @@
 - [📝 License](#license)
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [My-Portfolio_Mobile-Version] <a name="about-project"></a>
+# 📖 [My-Portfolio] <a name="about-project"></a>
 
 
-**[# 📖 [My-Portfolio_Mobile-Version]  Project mainly focusing on building personal responsive portfolio page to showcase my skills and abiities and what I can offer.  
+**[# 📖 [My-Portfolio]  Project mainly focusing on building personal responsive portfolio page to showcase my skills and abiities and what I can offer.  
 
 ## 🛠 Built With <a name="built-with"></a>
 
