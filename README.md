@@ -74,7 +74,7 @@
 ## 🚀 Live Demo <a name="live-demo"></a>
 
 >You can view the final page 
-<a href="https://yosefgeda.github.io/My-Portfolio/">HERE</a>
+<a href="https://gleaming-bombolone-0e6852.netlify.app/">HERE</a>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -83,7 +83,7 @@
 <!-- GETTING STARTED -->
 ## 💻 Getting Started <a name="getting-started"></a>
 
-> Click <a href="https://yosefgeda.github.io/My-Portfolio/">HERE</a> to view the page.
+> Click <a href="https://gleaming-bombolone-0e6852.netlify.app/">HERE</a> to view the page.
  
 
 
